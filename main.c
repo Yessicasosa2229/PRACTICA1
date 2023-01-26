@@ -1,10 +1,10 @@
 
 #include "lib/include.h"
-unsigned long led;
+unsigned long Led;
 
 int main(void){
 
-  configurar_GPIO();
+  Configurar_GPIO();
    
   while(1){
    //if(PF4 == 0x0){
